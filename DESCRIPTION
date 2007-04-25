@@ -1,7 +1,7 @@
 Package: Ringo
 Type: Package
 Title: R Investigation of NimbleGen Oligoarrays
-Version: 1.2.0
+Version: 1.0.0
 Date: 2007-04-12
 Author: Joern Toedling, Oleg Sklyar, Tammo Krueger, Matt Ritchie
 Maintainer: J. Toedling <toedling@ebi.ac.uk>
