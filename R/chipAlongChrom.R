@@ -149,7 +149,7 @@ chipAlongChrom <- function(eSet, probeAnno, chrom, xlim, ylim,
                     "bottomright"=list(x=unit(1, "npc"), y = unit(0, "npc"),
                       just=c("right","bottom")))
     
-    draw.key(key=list(rectangles=list(col=colPal),
+    lattice::draw.key(key=list(rectangles=list(col=colPal),
                text=list(sampleNames(eSet)[samples], cex=0.8)),
              vp=viewport(x = sLPos$x, y = sLPos$y,
                width=max(strwidth(sampleNames(eSet)[samples],
