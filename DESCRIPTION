@@ -5,7 +5,7 @@ Version: 1.26.1
 Date: 2012-06-08
 Author: Joern Toedling, Oleg Sklyar, Tammo Krueger, Matt Ritchie, Wolfgang Huber
 Maintainer: J. Toedling <j.toedling@imb-mainz.de>
-Depends: methods, Biobase (>= 1.14.1), RColorBrewer, limma, Matrix, grid
+Depends: methods, Biobase (>= 1.14.1), RColorBrewer, limma, Matrix, grid, lattice
 Imports: BiocGenerics (>= 0.1.11), genefilter, limma, vsn, stats4
 Suggests: rtracklayer (>= 1.3.1), mclust, topGO (>= 1.15.0)
 Description: The package Ringo facilitates the primary analysis
