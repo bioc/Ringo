@@ -28,7 +28,7 @@ regionOverlap <- function(xdf, ydf, chrColumn="chr",startColumn="start",endColum
       partRess[[j]] <- thisRes
       firstYCol <-  lastYCol+1
     }# for (j in seq(length(yRowSeq)))
-    res <- do.call("cBind", partRess)
+    res <- do.call("cbind", partRess)
   }
   return(res)
 }#regionOverlap

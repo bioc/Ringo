@@ -38,7 +38,7 @@
                nrow=5, byrow=TRUE))
   str(A.dgc <- as(A, "dgCMatrix"))
   nonzero(A.dgc)
-  A2.dgc <- Matrix::cBind(A.dgc, A.dgc)
+  A2.dgc <- cbind(A.dgc, A.dgc)
   as.matrix(A2.dgc)
   nonzero(A2.dgc)
 }

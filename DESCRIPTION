@@ -1,7 +1,7 @@
 Package: Ringo
 Type: Package
 Title: R Investigation of ChIP-chip Oligoarrays
-Version: 1.42.0
+Version: 1.42.1
 Date: 2016-03-07
 Author: Joern Toedling, Oleg Sklyar, Tammo Krueger, Matt Ritchie, Wolfgang Huber
 Maintainer: J. Toedling <jtoedling@yahoo.de>
